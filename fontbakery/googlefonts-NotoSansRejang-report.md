@@ -28,18 +28,16 @@ The following glyphs do not have the recommended number of contours:
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
-* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), gravecomb (U+0300), tildecomb (U+0303), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B) and 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
+* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+	 uniA947 (U+A947) and uniA952 (U+A952) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check GDEF mark glyph class doesn't have characters that are not marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_non_mark_chars">com.google.fonts/check/gdef_non_mark_chars</a>)</summary><div>
 
 
 * ⚠ **WARN** The following non-mark characters should not be in the GDEF mark glyph class:
-	 U+A953 [code: non-mark-chars]
+	 U+A952 and U+A953 [code: non-mark-chars]
 </div></details><br></div></details>
 ### Summary
 
