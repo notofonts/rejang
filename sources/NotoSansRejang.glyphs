@@ -1,5 +1,8 @@
 {
-.appVersion = "1057";
+.appVersion = "3109";
+DisplayStrings = (
+"/uniA938/uniA930"
+);
 classes = (
 {
 code = "uniA930 uniA931 uniA932 uniA933 uniA934 uniA935 uniA936 uniA937 uniA938 uniA939 uniA93A uniA93B uniA93C uniA93D uniA93E uniA93F uniA940 uniA941 uniA942 uniA943 uniA944 uniA945 uniA946 uniA952 uniA95F uni25CC";
@@ -73,30 +76,6 @@ value = (
 45,
 117
 );
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
-{
-name = trademark;
-value = "Noto is a trademark of Google Inc.";
-},
-{
-name = description;
-value = "Designed by Monotype design team.";
-},
-{
-name = vendorID;
-value = GOOG;
-},
-{
-name = versionString;
-value = "Version 2.001";
 },
 {
 name = openTypeNameVersion;
@@ -184,13 +163,37 @@ uni25CC
 name = "Axis Mappings";
 value = {
 wght = {
-"400.0" = 100;
+400 = 100;
 };
 };
 },
 {
 name = "Disable Last Change";
 value = 1;
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = trademark;
+value = "Noto is a trademark of Google Inc.";
+},
+{
+name = description;
+value = "Designed by Monotype design team.";
+},
+{
+name = vendorID;
+value = GOOG;
+},
+{
+name = versionString;
+value = "Version 2.001";
 },
 {
 name = Axes;
@@ -214,18 +217,18 @@ disablesNiceNames = 1;
 familyName = "Noto Sans Rejang";
 featurePrefixes = (
 {
-code = "table GDEF {\012    GlyphClassDef [], [], [], [];\012} GDEF;\012\012    markClass [uniA94A uniA951] <anchor 312 761> @Anchor2;\012\012    markClass uniA94F <anchor 439 878> @Anchor3;\012    markClass uniA950 <anchor 517 878> @Anchor3;\012\012    markClass uniA947 <anchor 97 126> @Anchor4;\012    markClass uniA949 <anchor 117 312> @Anchor4;\012    markClass uniA94B <anchor 102 312> @Anchor4;\012\012    markClass uniA948 <anchor -49 24> @Anchor6;\012    markClass uniA94C <anchor -40 24> @Anchor6;\012    markClass uniA94D <anchor 0 24> @Anchor6;\012\012    markClass uniA94E <anchor 0 24> @Anchor7;\012\012    markClass uniA953 <anchor 358 761> @Anchor9;\012\012\012lookup MarkToBase1 {\012    lookupflag 0;\012    ;\012            pos base [uniA930 uniA931 uniA933 uniA934 uniA937 uniA939 uniA943] <anchor 292 761> mark @Anchor2;\012        pos base uniA932 <anchor 761 761> mark @Anchor2;\012        pos base [uniA935 uniA93E] <anchor 634 761> mark @Anchor2;\012        pos base [uniA936 uniA941] <anchor 390 761> mark @Anchor2;\012        pos base uniA938 <anchor 341 761> mark @Anchor2;\012        pos base [uniA93A uniA93C uniA93D] <anchor 434 761> mark @Anchor2;\012        pos base uniA93B <anchor 673 761> mark @Anchor2;\012        pos base uniA93F <anchor 615 761> mark @Anchor2;\012        pos base [uniA940 uniA946] <anchor 478 761> mark @Anchor2;\012        pos base uniA942 <anchor 507 761> mark @Anchor2;\012        pos base uniA944 <anchor 820 761> mark @Anchor2;\012        pos base uniA945 <anchor 664 761> mark @Anchor2;\012        pos base uni25CC <anchor 320 590> mark @Anchor2;\012\012            pos base [uniA930 uniA931 uniA932 uniA933 uniA934 uniA935 uniA937 uniA939 uniA93A uniA93B uniA93C uniA93D uniA93E uniA940 uniA942 uniA943 uniA944 uniA945 uniA946] <anchor 253 761> mark @Anchor3;\012        pos base [uniA936 uniA941] <anchor 371 761> mark @Anchor3;\012        pos base uniA938 <anchor 146 761> mark @Anchor3;\012        pos base uniA93F <anchor 585 761> mark @Anchor3;\012        pos base uni25CC <anchor 140 590> mark @Anchor3;\012\012            pos base [uniA930 uniA931 uniA932 uniA933 uniA934 uniA935 uniA937 uniA939 uniA93A uniA93B uniA93C uniA93D uniA93E uniA93F uniA940 uniA942 uniA943 uniA944 uniA945 uniA946] <anchor 58 341> mark @Anchor4;\012        pos base uniA936 <anchor 107 341> mark @Anchor4;\012        pos base uniA938 <anchor 68 341> mark @Anchor4;\012        pos base uniA941 <anchor 78 341> mark @Anchor4;\012        pos base uni25CC <anchor 10 341> mark @Anchor4;\012\012} MarkToBase1;\012\012lookup MarkToBase5 {\012    lookupflag 0;\012    ;\012    # Original source: 1 \012            pos base [uniA930 uniA931 uniA932 uniA933 uniA934 uniA935 uniA937 uniA939 uniA93A uniA93B uniA93C uniA93D uniA93E uniA940 uniA942 uniA943 uniA944 uniA945 uniA946] <anchor 0 0> mark @Anchor6;\012        pos base [uniA936 uniA941] <anchor 117 0> mark @Anchor6;\012        pos base uniA938 <anchor 68 0> mark @Anchor6;\012        pos base uniA93F <anchor 166 0> mark @Anchor6;\012        pos base uni25CC <anchor 80 60> mark @Anchor6;\012\012            pos base [uniA930 uniA931 uniA936 uniA938 uniA939] <anchor 195 0> mark @Anchor7;\012        pos base uniA932 <anchor 537 0> mark @Anchor7;\012        pos base [uniA933 uniA934 uniA937] <anchor 146 0> mark @Anchor7;\012        pos base uniA935 <anchor 488 0> mark @Anchor7;\012        pos base uniA93A <anchor 361 0> mark @Anchor7;\012        pos base uniA93B <anchor 468 0> mark @Anchor7;\012        pos base [uniA93C uniA93D uniA93E] <anchor 390 0> mark @Anchor7;\012        pos base uniA93F <anchor 351 0> mark @Anchor7;\012        pos base [uniA940 uniA941 uniA942] <anchor 273 0> mark @Anchor7;\012        pos base uniA943 <anchor 332 0> mark @Anchor7;\012        pos base uniA944 <anchor 517 0> mark @Anchor7;\012        pos base uniA945 <anchor 458 0> mark @Anchor7;\012        pos base uniA946 <anchor 214 0> mark @Anchor7;\012        pos base uni25CC <anchor 214 60> mark @Anchor7;\012\012} MarkToBase5;\012\012lookup MarkToBase8 {\012    lookupflag 0;\012    ;\012    # Original source: 2 \012            pos base [uniA930 uniA931 uniA933 uniA934 uniA93A uniA943] <anchor 380 761> mark @Anchor9;\012        pos base uniA932 <anchor 820 761> mark @Anchor9;\012        pos base [uniA935 uniA941 uniA945] <anchor 478 761> mark @Anchor9;\012        pos base uniA936 <anchor 429 761> mark @Anchor9;\012        pos base uniA937 <anchor 302 761> mark @Anchor9;\012        pos base uniA938 <anchor 439 761> mark @Anchor9;\012        pos base uniA939 <anchor 341 761> mark @Anchor9;\012        pos base uniA93B <anchor 566 761> mark @Anchor9;\012        pos base [uniA93C uniA93D uniA93F] <anchor 410 761> mark @Anchor9;\012        pos base uniA93E <anchor 683 761> mark @Anchor9;\012        pos base uniA940 <anchor 419 761> mark @Anchor9;\012        pos base [uniA942 uniA946] <anchor 434 761> mark @Anchor9;\012        pos base uniA944 <anchor 615 761> mark @Anchor9;\012        pos base uni25CC <anchor 300 590> mark @Anchor9;\012\012} MarkToBase8;\012";
-name = "<anonymous>";
-},
-{
-code = "table GDEF {\012        GlyphClassDef @GDEF_Base, @GDEF_Ligature, @GDEF_Mark, @GDEF_Component;\012} GDEF;\012\012";
-name = "<anonymous>";
+code = "languagesystem DFLT dflt;\012languagesystem rjng dflt;";
+name = Languagesystems;
 }
 );
 features = (
 {
-code = "lookup MarkToBase1;\012    lookup MarkToBase5;\012    lookup MarkToBase8;";
+code = "# Automatic Code Start\012";
 name = mark;
+},
+{
+code = "pos @GDEF_Base' 50 uniA938 uniA950; # Avoid ꤸꥐ clashes\012pos uniA930' 200 uniA94E @GDEF_Base uniA94D; # Give ꤰꥎ a bit of breathing room";
+name = dist;
 }
 );
 fontMaster = (
@@ -233,8 +236,7 @@ fontMaster = (
 alignmentZones = (
 "{714, 11}",
 "{536, 10}",
-"{0, -10}",
-"{-240, 0}"
+"{0, -10}"
 );
 ascender = 760;
 capHeight = 714;
@@ -370,7 +372,6 @@ xHeight = 536;
 glyphs = (
 {
 glyphname = .notdef;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -398,11 +399,9 @@ vertWidth = 0;
 width = 600;
 }
 );
-note = "";
 },
 {
 glyphname = NULL;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -410,12 +409,10 @@ vertWidth = 0;
 width = 0;
 }
 );
-note = "";
 unicode = 0000;
 },
 {
 glyphname = CR;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -423,12 +420,10 @@ vertWidth = 0;
 width = 260;
 }
 );
-note = "";
 unicode = 000D;
 },
 {
 glyphname = space;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -436,12 +431,10 @@ vertWidth = 0;
 width = 260;
 }
 );
-note = "";
 unicode = 0020;
 },
 {
 glyphname = uni00A0;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -449,14 +442,38 @@ vertWidth = 0;
 width = 260;
 }
 );
-note = "";
 unicode = 00A0;
 },
 {
 glyphname = uniA930;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{292, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{195, 0}";
+},
+{
+name = Anchor9;
+position = "{380, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -494,14 +511,38 @@ vertWidth = 0;
 width = 477;
 }
 );
-note = "";
 unicode = A930;
 },
 {
 glyphname = uniA931;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{292, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{195, 0}";
+},
+{
+name = Anchor9;
+position = "{380, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -528,14 +569,38 @@ vertWidth = 0;
 width = 458;
 }
 );
-note = "";
 unicode = A931;
 },
 {
 glyphname = uniA932;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{761, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{537, 0}";
+},
+{
+name = Anchor9;
+position = "{820, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -580,14 +645,38 @@ vertWidth = 0;
 width = 830;
 }
 );
-note = "";
 unicode = A932;
 },
 {
 glyphname = uniA933;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{292, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{146, 0}";
+},
+{
+name = Anchor9;
+position = "{380, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -632,14 +721,38 @@ vertWidth = 0;
 width = 477;
 }
 );
-note = "";
 unicode = A933;
 },
 {
 glyphname = uniA934;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{292, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{146, 0}";
+},
+{
+name = Anchor9;
+position = "{380, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -681,14 +794,38 @@ vertWidth = 0;
 width = 477;
 }
 );
-note = "";
 unicode = A934;
 },
 {
 glyphname = uniA935;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{634, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{488, 0}";
+},
+{
+name = Anchor9;
+position = "{478, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -735,14 +872,38 @@ vertWidth = 0;
 width = 876;
 }
 );
-note = "";
 unicode = A935;
 },
 {
 glyphname = uniA936;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{107, 341}";
+},
+{
+name = Anchor3;
+position = "{390, 761}";
+},
+{
+name = Anchor4;
+position = "{371, 761}";
+},
+{
+name = Anchor6;
+position = "{117, 0}";
+},
+{
+name = Anchor7;
+position = "{195, 0}";
+},
+{
+name = Anchor9;
+position = "{429, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -769,14 +930,38 @@ vertWidth = 0;
 width = 458;
 }
 );
-note = "";
 unicode = A936;
 },
 {
 glyphname = uniA937;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{292, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{146, 0}";
+},
+{
+name = Anchor9;
+position = "{302, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -793,14 +978,38 @@ vertWidth = 0;
 width = 334;
 }
 );
-note = "";
 unicode = A937;
 },
 {
 glyphname = uniA938;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{68, 341}";
+},
+{
+name = Anchor3;
+position = "{341, 761}";
+},
+{
+name = Anchor4;
+position = "{146, 761}";
+},
+{
+name = Anchor6;
+position = "{68, 0}";
+},
+{
+name = Anchor7;
+position = "{195, 0}";
+},
+{
+name = Anchor9;
+position = "{439, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -859,14 +1068,38 @@ vertWidth = 0;
 width = 554;
 }
 );
-note = "";
 unicode = A938;
 },
 {
 glyphname = uniA939;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{292, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{195, 0}";
+},
+{
+name = Anchor9;
+position = "{341, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -914,14 +1147,38 @@ vertWidth = 0;
 width = 477;
 }
 );
-note = "";
 unicode = A939;
 },
 {
 glyphname = uniA93A;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{434, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{361, 0}";
+},
+{
+name = Anchor9;
+position = "{380, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -976,14 +1233,38 @@ vertWidth = 0;
 width = 652;
 }
 );
-note = "";
 unicode = A93A;
 },
 {
 glyphname = uniA93B;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{673, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{468, 0}";
+},
+{
+name = Anchor9;
+position = "{566, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1042,14 +1323,38 @@ vertWidth = 0;
 width = 746;
 }
 );
-note = "";
 unicode = A93B;
 },
 {
 glyphname = uniA93C;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{434, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{390, 0}";
+},
+{
+name = Anchor9;
+position = "{410, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1097,14 +1402,38 @@ vertWidth = 0;
 width = 651;
 }
 );
-note = "";
 unicode = A93C;
 },
 {
 glyphname = uniA93D;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{434, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{390, 0}";
+},
+{
+name = Anchor9;
+position = "{410, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1174,14 +1503,38 @@ vertWidth = 0;
 width = 651;
 }
 );
-note = "";
 unicode = A93D;
 },
 {
 glyphname = uniA93E;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{634, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{390, 0}";
+},
+{
+name = Anchor9;
+position = "{683, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1218,14 +1571,38 @@ vertWidth = 0;
 width = 709;
 }
 );
-note = "";
 unicode = A93E;
 },
 {
 glyphname = uniA93F;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{615, 761}";
+},
+{
+name = Anchor4;
+position = "{585, 761}";
+},
+{
+name = Anchor6;
+position = "{166, 0}";
+},
+{
+name = Anchor7;
+position = "{351, 0}";
+},
+{
+name = Anchor9;
+position = "{410, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1272,14 +1649,38 @@ vertWidth = 0;
 width = 674;
 }
 );
-note = "";
 unicode = A93F;
 },
 {
 glyphname = uniA940;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{478, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{273, 0}";
+},
+{
+name = Anchor9;
+position = "{419, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1317,14 +1718,38 @@ vertWidth = 0;
 width = 553;
 }
 );
-note = "";
 unicode = A940;
 },
 {
 glyphname = uniA941;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{78, 341}";
+},
+{
+name = Anchor3;
+position = "{390, 761}";
+},
+{
+name = Anchor4;
+position = "{371, 761}";
+},
+{
+name = Anchor6;
+position = "{117, 0}";
+},
+{
+name = Anchor7;
+position = "{273, 0}";
+},
+{
+name = Anchor9;
+position = "{478, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1361,14 +1786,38 @@ vertWidth = 0;
 width = 576;
 }
 );
-note = "";
 unicode = A941;
 },
 {
 glyphname = uniA942;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{507, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{273, 0}";
+},
+{
+name = Anchor9;
+position = "{434, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1399,14 +1848,38 @@ vertWidth = 0;
 width = 578;
 }
 );
-note = "";
 unicode = A942;
 },
 {
 glyphname = uniA943;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{292, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{332, 0}";
+},
+{
+name = Anchor9;
+position = "{380, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1452,14 +1925,38 @@ vertWidth = 0;
 width = 608;
 }
 );
-note = "";
 unicode = A943;
 },
 {
 glyphname = uniA944;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{820, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{517, 0}";
+},
+{
+name = Anchor9;
+position = "{615, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1514,14 +2011,38 @@ vertWidth = 0;
 width = 907;
 }
 );
-note = "";
 unicode = A944;
 },
 {
 glyphname = uniA945;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{664, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{458, 0}";
+},
+{
+name = Anchor9;
+position = "{478, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1603,14 +2124,38 @@ vertWidth = 0;
 width = 753;
 }
 );
-note = "";
 unicode = A945;
 },
 {
 glyphname = uniA946;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{58, 341}";
+},
+{
+name = Anchor3;
+position = "{478, 761}";
+},
+{
+name = Anchor4;
+position = "{253, 761}";
+},
+{
+name = Anchor6;
+position = "{0, 0}";
+},
+{
+name = Anchor7;
+position = "{214, 0}";
+},
+{
+name = Anchor9;
+position = "{434, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1658,14 +2203,18 @@ vertWidth = 0;
 width = 539;
 }
 );
-note = "";
 unicode = A946;
 },
 {
 glyphname = uniA947;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = _Anchor2;
+position = "{97, 126}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1690,14 +2239,20 @@ vertWidth = 0;
 width = 162;
 }
 );
-note = "";
 unicode = A947;
+category = Mark;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uniA948;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = _Anchor6;
+position = "{-49, 24}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1722,14 +2277,20 @@ vertWidth = 0;
 width = 0;
 }
 );
-note = "";
 unicode = A948;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = uniA949;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = _Anchor2;
+position = "{117, 312}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1746,14 +2307,20 @@ vertWidth = 0;
 width = 0;
 }
 );
-note = "";
 unicode = A949;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = uniA94A;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = _Anchor3;
+position = "{312, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1779,14 +2346,20 @@ vertWidth = 0;
 width = 0;
 }
 );
-note = "";
 unicode = A94A;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = uniA94B;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = _Anchor2;
+position = "{102, 312}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1820,14 +2393,20 @@ vertWidth = 0;
 width = 0;
 }
 );
-note = "";
 unicode = A94B;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = uniA94C;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = _Anchor6;
+position = "{-40, 24}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1848,14 +2427,20 @@ vertWidth = 0;
 width = 0;
 }
 );
-note = "";
 unicode = A94C;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = uniA94D;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = _Anchor6;
+position = "{0, 24}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1881,14 +2466,20 @@ vertWidth = 0;
 width = 0;
 }
 );
-note = "";
 unicode = A94D;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = uniA94E;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = _Anchor7;
+position = "{0, 24}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1914,14 +2505,20 @@ vertWidth = 0;
 width = 0;
 }
 );
-note = "";
 unicode = A94E;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = uniA94F;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = _Anchor4;
+position = "{439, 878}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1938,14 +2535,20 @@ vertWidth = 0;
 width = 0;
 }
 );
-note = "";
 unicode = A94F;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = uniA950;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = _Anchor4;
+position = "{517, 878}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -1971,14 +2574,20 @@ vertWidth = 0;
 width = 0;
 }
 );
-note = "";
 unicode = A950;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = uniA951;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = _Anchor3;
+position = "{312, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -2004,12 +2613,12 @@ vertWidth = 0;
 width = 0;
 }
 );
-note = "";
 unicode = A951;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = uniA952;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -2053,14 +2662,18 @@ vertWidth = 0;
 width = 152;
 }
 );
-note = "";
 unicode = A952;
 },
 {
 glyphname = uniA953;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = _Anchor9;
+position = "{358, 761}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -2102,12 +2715,12 @@ vertWidth = 0;
 width = 0;
 }
 );
-note = "";
 unicode = A953;
+category = Mark;
+subCategory = Nonspacing;
 },
 {
 glyphname = uniA95F;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -2243,12 +2856,10 @@ vertWidth = 0;
 width = 668;
 }
 );
-note = "";
 unicode = A95F;
 },
 {
 glyphname = uni200B;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -2261,7 +2872,6 @@ unicode = 200B;
 },
 {
 glyphname = uni200C;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -2274,7 +2884,6 @@ unicode = 200C;
 },
 {
 glyphname = uni200D;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -2282,14 +2891,38 @@ vertWidth = 0;
 width = 0;
 }
 );
-note = "";
 unicode = 200D;
 },
 {
 glyphname = uni25CC;
-lastChange = "2017-09-07 13:25:16 +0000";
 layers = (
 {
+anchors = (
+{
+name = Anchor2;
+position = "{10, 341}";
+},
+{
+name = Anchor3;
+position = "{320, 590}";
+},
+{
+name = Anchor4;
+position = "{140, 590}";
+},
+{
+name = Anchor6;
+position = "{80, 60}";
+},
+{
+name = Anchor7;
+position = "{214, 60}";
+},
+{
+name = Anchor9;
+position = "{300, 590}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -2638,7 +3271,6 @@ UUID0 = 1;
 name = Regular;
 }
 );
-keyboardIncrement = 0;
 manufacturer = "Monotype Imaging Inc.";
 manufacturerURL = "http://www.google.com/get/noto/";
 unitsPerEm = 1000;
