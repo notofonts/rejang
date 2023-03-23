@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GFR - Glyphs</title>
+    
+    <style type="text/css">
+    
+
+        html{
+	  font-family: sans-serif;
+	}
+    @font-face {
+        font-family: "Adobe NotDef";
+        src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+    }
+	.box-title{
+	  width: 100%;
+	  font-size: 8pt;
+	  font-weight: 700;
+	  border-top: 1px solid black;
+	  padding-top: 5px;
+	  margin-bottom: 10pt;
+	  display: block;
+	}
+	.box{
+	  margin-bottom: 20pt;
+	  width: 100%;
+	  float: left;
+	}
+	.box-text{
+	}
+	
+	#nav{
+	  position: fixed;
+	  right: 20px;
+	  z-index: 100;
+	}
+	#font-toggle{
+	}
+	.nav-item{
+		display: block;
+		cursor: pointer;
+		-webkit-user-select: none; /* Safari */        
+		-moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* IE10+/Edge */
+		user-select: none; /* Standard */
+		text-align: center;
+		color: white;
+		background-color: black;
+		display: block;
+		font-size: 9pt;
+		padding: 5px;
+		margin: 2px;
+	}
+	.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	}
+
+	.tooltip .tooltiptext {
+	font-family: sans-serif;
+	visibility: hidden;
+	width: 500px;
+	background-color: black;
+	color: #fff;
+	text-align: left;
+	font-size: 12pt;
+	line-height: 15pt;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	}
+
+	.tooltip:hover .tooltiptext {
+	padding: 10px;
+	visibility: visible;
+	}
+	.tooltipleft {
+		float:left;
+		width: 249px;
+	}
+	.tooltipright {
+		float:right;
+		width:250px;
+	}
+
+			/* Stuff needed for the table differ */
+            body {
+                font-family: Helvetica;
+            }
+            .node {
+                font-family: courier;
+                cursor: pointer;
+                position: relative;
+                left: 30px;
+                padding: 5px;
+                display: block;
+                border: 1px dashed grey;
+            }
+            .header {
+            font-weight: bold;
+            }
+            .attrib-old{
+                color: red;
+                cursor: text;
+            }
+            .attrib-new{
+                color: green;
+                cursor: text;
+            }
+            .leaf {
+            font-weight: bold;
+            }
+            .old .cell .new {
+            	display:  none;
+            }
+            .new .cell .old {
+            	display:  none;
+            }
+            .both .cell .old {
+            	opacity: 0.75;
+            	color:  red;
+            }
+            .both .cell .new {
+            	opacity: 0.75;
+            	position: absolute;
+            	top: 0;
+            	color:  green;
+            }
+			.spacer {
+				display:block;
+				float:left;
+				width:100%;
+			}
+
+	  
+	    @font-face{
+    src: url(old-NotoSansRejang-Regular.ttf);
+    font-family: "old font";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    @font-face{
+    src: url(new-NotoSansRejang-Regular.ttf);
+    font-family: "new font";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+
+	  
+
+	  
+	    .old-style{
+    font-family: "old font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	    .new-style{
+    font-family: "new font", "Adobe NotDef";
+    font-weight: 400;
+    
+    font-style: normal;
+}
+	  
+
+	  
+	
+.cell{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  width: 50pt;
+  line-height: 48.0px;
+}
+.cell-word{
+  z-index: -100;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 5pt;
+  margin: 5pt;
+  line-height: 48.0px;
+}
+.cat-strings .cell {
+  clear: both;
+  position: static;
+  float: none;
+  text-align: left;
+}
+.box-title {
+  clear: both;
+}
+
+    </style>
+</head>
+<body>
+    <div id="nav">
+		
+			<div class="nav-item" id="font-toggle">old</div>
+		
+		
+	</div>
+    <div id="content">
+	<h2>
+<b>Diffenator</b>
+</h2>
+	
+  
+    <div class="box">
+    <div class="box-title">Tables</div>
+     
+<div class="node" >
+GPOS
+  <div class="node" style="display:none">
+  table
+    <div class="node" style="display:none">
+    LookupList
+      <div class="node" style="display:none">
+      Lookup
+        <div class="node" style="display:none">
+        [0]
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              BaseArray
+                <div class="node" style="display:none">
+                BaseRecord
+                  <div class="node" style="display:none">
+                  [0]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">380</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [1]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">380</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [2]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">820</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [3]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">380</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [4]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">380</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [5]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">478</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [6]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">429</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [7]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">302</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [8]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">439</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [9]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">341</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [10]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">380</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [11]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">566</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [12]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">410</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [13]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">410</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [14]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">683</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [15]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">410</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [16]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">419</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [17]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">478</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [18]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">434</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [19]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">380</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [20]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">615</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [21]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">478</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="node" style="display:none">
+                  [22]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">434</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              ClassCount
+                <span class="attrib-before">6</span> <span class="attrib-after">5</span>
+              </div>
+              <div class="node" style="display:none">
+              MarkCoverage
+                <div class="node" style="display:none">
+                glyphs
+                  <div class="node" style="display:none">
+                  [11]
+                    <span class="attrib-before">uniA953</span> <span class="attrib-after">None</span>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              MarkArray
+                <div class="node" style="display:none">
+                MarkRecord
+                  <div class="node" style="display:none">
+                  [11]
+                    <div class="node" style="display:none">
+                    Class
+                      <span class="attrib-before">5</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    MarkAnchor
+                      <div class="node" style="display:none">
+                      Format
+                        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      XCoordinate
+                        <span class="attrib-before">358</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      YCoordinate
+                        <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="node" style="display:none">
+                MarkCount
+                  <span class="attrib-before">12</span> <span class="attrib-after">11</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="node" style="display:none">
+        [1]
+          <div class="node" style="display:none">
+          SubTable
+            <div class="node" style="display:none">
+            [0]
+              <div class="node" style="display:none">
+              BaseArray
+                <div class="node" style="display:none">
+                BaseRecord
+                  <div class="node" style="display:none">
+                  [0]
+                    <div class="node" style="display:none">
+                    BaseAnchor
+                      <div class="node" style="display:none">
+                      [5]
+                        <div class="node" style="display:none">
+                        Format
+                          <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        XCoordinate
+                          <span class="attrib-before">300</span> <span class="attrib-after">None</span>
+                        </div>
+                        <div class="node" style="display:none">
+                        YCoordinate
+                          <span class="attrib-before">590</span> <span class="attrib-after">None</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              ClassCount
+                <span class="attrib-before">6</span> <span class="attrib-after">5</span>
+              </div>
+              <div class="node" style="display:none">
+              MarkCoverage
+                <div class="node" style="display:none">
+                glyphs
+                  <div class="node" style="display:none">
+                  [11]
+                    <span class="attrib-before">uniA953</span> <span class="attrib-after">None</span>
+                  </div>
+                </div>
+              </div>
+              <div class="node" style="display:none">
+              MarkArray
+                <div class="node" style="display:none">
+                MarkRecord
+                  <div class="node" style="display:none">
+                  [11]
+                    <div class="node" style="display:none">
+                    Class
+                      <span class="attrib-before">5</span> <span class="attrib-after">None</span>
+                    </div>
+                    <div class="node" style="display:none">
+                    MarkAnchor
+                      <div class="node" style="display:none">
+                      Format
+                        <span class="attrib-before">1</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      XCoordinate
+                        <span class="attrib-before">358</span> <span class="attrib-after">None</span>
+                      </div>
+                      <div class="node" style="display:none">
+                      YCoordinate
+                        <span class="attrib-before">761</span> <span class="attrib-after">None</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="node" style="display:none">
+                MarkCount
+                  <span class="attrib-before">12</span> <span class="attrib-after">11</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="node" >
+hmtx
+  <div class="node" style="display:none">
+  metrics
+    <div class="node" style="display:none">
+    uniA953
+      <div class="node" style="display:none">
+      [0]
+        <span class="attrib-before">0</span> <span class="attrib-after">320</span>
+      </div>
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">252</span> <span class="attrib-after">50</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="node" >
+vmtx
+  <div class="node" style="display:none">
+  metrics
+    <div class="node" style="display:none">
+    uniA953
+      <div class="node" style="display:none">
+      [1]
+        <span class="attrib-before">93</span> <span class="attrib-after">343</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="node" >
+vhea
+  <div class="node" style="display:none">
+  minTopSideBearing
+    <span class="attrib-before">93</span> <span class="attrib-after">99</span>
+  </div>
+</div>
+<div class="node" >
+head
+  <div class="node" style="display:none">
+  checkSumAdjustment
+    <span class="attrib-before">2131580045</span> <span class="attrib-after">947896649</span>
+  </div>
+  <div class="node" style="display:none">
+  yMax
+    <span class="attrib-before">976</span> <span class="attrib-after">970</span>
+  </div>
+  <div class="node" style="display:none">
+  modified
+    <span class="attrib-before">3744947204</span> <span class="attrib-after">3762427985</span>
+  </div>
+</div>
+<div class="node" >
+OS/2
+  <div class="node" style="display:none">
+  xAvgCharWidth
+    <span class="attrib-before">547</span> <span class="attrib-after">540</span>
+  </div>
+</div>
+<div class="node" >
+GDEF
+  <div class="node" style="display:none">
+  table
+    <div class="node" style="display:none">
+    GlyphClassDef
+      <div class="node" style="display:none">
+      classDefs
+        <div class="node" style="display:none">
+        uniA952
+          <span class="attrib-before">3</span> <span class="attrib-after">None</span>
+        </div>
+        <div class="node" style="display:none">
+        uniA953
+          <span class="attrib-before">3</span> <span class="attrib-after">None</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+      <div class="box">
+        <div class="box-title">Modified encoded Glyphs</div>
+        <div class="box-text old-style" style="font-size: 32pt">
+          
+            <div class="cell">
+              <div class="cell-word" dir="">
+    <div class="tooltip">
+        ꥓<br>
+        <span class="tooltiptext">
+            name: REJANG VIRAMA<br>
+            unicode: U+A953<br>
+            changed pixels: 2.05%
+        </span>
+    </div>
+</div>
+            </div>
+          
+          </div>
+      </div>
+    
+
+    
+    
+    <div class="box">
+      <div class="box-title">Misshapen user strings</div>
+      <div class="box-text old-style" style="font-size: 32pt">
+        
+      </div>
+    </div>
+    
+
+    
+
+    </div>
+  
+
+    </div>
+</body>
+	<script>
+
+	POSITION = "old"
+	fontToggle = document.getElementById("font-toggle")
+	function switchFonts() {
+	boxTitles = document.getElementsByClassName("box-title")
+	items = document.getElementsByClassName("box-text");
+	  
+	if (POSITION === "old") {
+	  POSITION = "new"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("old", "new")
+	    fontToggle.textContent = "new"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("old", "new")
+	  }
+
+	  } else {
+	  POSITION = "old"
+	  for (item of boxTitles) {
+	    item.textContent = item.textContent.replace("new", "old")
+	    fontToggle.textContent = "old"
+	  }
+	  for (item of items) {
+		item.className = item.className.replace("new", "old")
+	  }
+	}
+	}
+	if (fontToggle !== null) {
+		fontToggle.addEventListener("click", switchFonts);
+	}
+
+    const divs = document.querySelectorAll('.node');
+    divs.forEach(el => el.addEventListener('click', event => {
+    var children = event.target.querySelectorAll(".node");
+    children.forEach(function(e) {
+        if (e.style.display === "none") {
+            e.style.display = "block";
+        } else {
+            e.style.display = "none";
+        }
+    })
+    }));
+    
+
+function wordBreaks() {
+  words = document.getElementsByClassName("cell-word")
+  res = []
+  prevTop = 0
+  for (i=0; i<words.length; i++) {
+      var word = words[i]
+      currentTop = word.getBoundingClientRect().top
+      if (currentTop > prevTop) {
+          res.push(i)
+      }
+      prevTop = currentTop
+  }
+  return res
+}
+
+async function insertBreaks() {
+  switchFonts()
+  await sleep(1)
+  breaksBefore = wordBreaks()
+  switchFonts()
+  await sleep(1)
+  breaksAfter = wordBreaks()
+
+
+  console.log(breaksBefore.length, breaksAfter.length)
+
+  if (breaksBefore.length >= breaksAfter.length) {
+    breaks = breaksBefore
+  } else {
+    breaks = breaksAfter
+  }
+
+  words = document.getElementsByClassName("cell-word")
+  breaks.forEach(function(i) {
+    if (i != 0) {
+      i = i
+    }
+    word = words[i]
+    spacer = document.createElement("div")
+    spacer.className = "spacer"
+    word.parentNode.insertBefore(spacer, word)
+  })
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+  
+insertBreaks()
+
+
+    </script>
+</html>
