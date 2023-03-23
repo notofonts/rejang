@@ -2,7 +2,7 @@
 .appVersion = "3180";
 DisplayStrings = (
 "/uniA938/uniA930",
-"/uniA930/uniA953"
+"/uniA930/uniA952"
 );
 classes = (
 {
@@ -2664,6 +2664,8 @@ width = 152;
 }
 );
 unicode = A952;
+category = Mark;
+subCategory = Spacing;
 },
 {
 glyphname = uniA953;
