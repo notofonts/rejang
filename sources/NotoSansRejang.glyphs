@@ -1,7 +1,8 @@
 {
-.appVersion = "3109";
+.appVersion = "3180";
 DisplayStrings = (
-"/uniA938/uniA930"
+"/uniA938/uniA930",
+"/uniA930/uniA953"
 );
 classes = (
 {
@@ -163,7 +164,7 @@ uni25CC
 name = "Axis Mappings";
 value = {
 wght = {
-400 = 100;
+100 = 400;
 };
 };
 },
@@ -2670,8 +2671,8 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor9;
-position = "{358, 761}";
+name = _Anchor9_disabled;
+position = "{156, 511}";
 }
 );
 layerId = UUID0;
@@ -2679,45 +2680,45 @@ paths = (
 {
 closed = 1;
 nodes = (
-"425 771 OFFCURVE",
-"472 810 OFFCURVE",
-"472 873 CURVE SMOOTH",
-"472 937 OFFCURVE",
-"423 976 OFFCURVE",
-"362 976 CURVE SMOOTH",
-"298 976 OFFCURVE",
-"252 937 OFFCURVE",
-"252 873 CURVE SMOOTH",
-"252 810 OFFCURVE",
-"298 771 OFFCURVE",
-"362 771 CURVE SMOOTH"
+"223 521 OFFCURVE",
+"270 560 OFFCURVE",
+"270 623 CURVE SMOOTH",
+"270 687 OFFCURVE",
+"221 726 OFFCURVE",
+"160 726 CURVE SMOOTH",
+"96 726 OFFCURVE",
+"50 687 OFFCURVE",
+"50 623 CURVE SMOOTH",
+"50 560 OFFCURVE",
+"96 521 OFFCURVE",
+"160 521 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"322 815 OFFCURVE",
-"300 839 OFFCURVE",
-"300 873 CURVE SMOOTH",
-"300 910 OFFCURVE",
-"324 932 OFFCURVE",
-"362 932 CURVE SMOOTH",
-"401 932 OFFCURVE",
-"424 910 OFFCURVE",
-"424 873 CURVE SMOOTH",
-"424 839 OFFCURVE",
-"400 815 OFFCURVE",
-"362 815 CURVE SMOOTH"
+"120 565 OFFCURVE",
+"98 589 OFFCURVE",
+"98 623 CURVE SMOOTH",
+"98 660 OFFCURVE",
+"122 682 OFFCURVE",
+"160 682 CURVE SMOOTH",
+"199 682 OFFCURVE",
+"222 660 OFFCURVE",
+"222 623 CURVE SMOOTH",
+"222 589 OFFCURVE",
+"198 565 OFFCURVE",
+"160 565 CURVE SMOOTH"
 );
 }
 );
 vertWidth = 0;
-width = 0;
+width = 320;
 }
 );
 unicode = A953;
 category = Mark;
-subCategory = Nonspacing;
+subCategory = Spacing;
 },
 {
 glyphname = uniA95F;
