@@ -161,14 +161,6 @@ uni25CC
 );
 },
 {
-name = "Axis Mappings";
-value = {
-wght = {
-100 = 400;
-};
-};
-},
-{
 name = "Disable Last Change";
 value = 1;
 },
