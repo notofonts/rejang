@@ -220,7 +220,7 @@ code = "# Automatic Code Start\012";
 name = mark;
 },
 {
-code = "pos @GDEF_Base' 50 uniA938 uniA950; # Avoid ꤸꥐ clashes\012pos uniA930' 200 uniA94E @GDEF_Base uniA94D; # Give ꤰꥎ a bit of breathing room";
+code = "pos @GDEF_Base' 20 @GDEF_Base [uniA947 uniA94F];\012pos @GDEF_Base' 40 @GDEF_Base [uniA949 uniA94B];\012\012pos @GDEF_Base' 190 uniA938 uniA950;\012pos @GDEF_Base' 80 @GDEF_Base uniA950;\012pos uniA930' 200 uniA94E @GDEF_Base uniA94D; # Give ꤰꥎ a bit of breathing room\012\012";
 name = dist;
 }
 );

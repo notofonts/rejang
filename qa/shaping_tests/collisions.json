@@ -1,0 +1,25 @@
+{
+    "configuration": {
+        "collidoscope": {
+            "faraway": true,
+            "marks": true,
+            "adjacentmarks": true,
+            "bases": false
+        },
+        "defaults": {},
+        "ingredients": {
+            "Bases": "[ꤰꤱꤲꤳꤴꤵꤶꤷꤸꤹꤺꤻꤼꤽꤾꤿꥀꥁꥂꥃꥄꥅꥆ]",
+            "Marks": "[ꥇꥈꥉꥊꥋꥌꥍꥎꥏꥐꥑꥒ꥓]"
+        }
+    },
+    "tests": [
+        {
+            "input": "Bases Bases Marks",
+            "input_type": "pattern"
+        },
+        {
+            "input": "Bases Marks Bases",
+            "input_type": "pattern"
+        }
+    ]
+}
