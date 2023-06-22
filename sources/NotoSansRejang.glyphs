@@ -1,5 +1,5 @@
 {
-.appVersion = "3180";
+.appVersion = "3200";
 DisplayStrings = (
 "/uniA938/uniA930",
 "/uniA930/uniA952"
@@ -235,10 +235,6 @@ ascender = 760;
 capHeight = 714;
 customParameters = (
 {
-name = "UFO Filename";
-value = "NotoSansRejang-Regular.ufo";
-},
-{
 name = hheaAscender;
 value = 1069;
 },
@@ -283,69 +279,12 @@ name = typoLineGap;
 value = 0;
 },
 {
-name = unicodeRanges;
-value = (
-0,
-1,
-31,
-45,
-117
-);
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
-{
-name = trademark;
-value = "Noto is a trademark of Google Inc.";
-},
-{
-name = description;
-value = "Designed by Monotype design team.";
-},
-{
-name = vendorID;
-value = GOOG;
-},
-{
-name = versionString;
-value = "Version 2.001";
-},
-{
-name = openTypeNameVersion;
-value = "Version 2.001";
-},
-{
-name = codePageRanges;
-value = (
-1252
-);
-},
-{
 name = winAscent;
 value = 1069;
 },
 {
 name = winDescent;
 value = 293;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
-},
-{
-name = "Has WWS Names";
-value = 1;
-},
-{
-name = openTypeOS2SelectionUnsupportedBits;
-value = (
-);
 }
 );
 descender = -240;
