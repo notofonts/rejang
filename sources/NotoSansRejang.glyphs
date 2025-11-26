@@ -79,10 +79,6 @@ value = (
 );
 },
 {
-name = openTypeNameVersion;
-value = "Version 2.003";
-},
-{
 name = codePageRanges;
 value = (
 1252
@@ -183,10 +179,6 @@ value = "Noto is a trademark of Google Inc.";
 {
 name = vendorID;
 value = GOOG;
-},
-{
-name = versionString;
-value = "Version 2.002";
 },
 {
 name = Axes;
